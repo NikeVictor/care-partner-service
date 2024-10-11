@@ -1,2 +1,5 @@
 # care-partner-service
 The given code is a typescript code designed for the purpose of creating and managing partnerships among health care providers or care centers. And these partnerships among them can happen for service provision or collaboration. 
+The CarePartnerService class contains four (4) functions, createPartner, linkExistingOrganization, createNewCarePartner and removePartnership. The createPartner function creates new care partners or link existing ones to an organization and also sends an invitation link to the partners into a care partner network through email. This function accept three arguments: an orgId, partnerAttrs and an optional ids. And it return an array of created or linked organizations. 
+The linkExistingOrganization and createNewCarePartner functions are called by the createPartner function. They handle linking an existing organization as a care partner or creating a new care partner respectively. 
+The removePartnership function removes a partner from an organization.
